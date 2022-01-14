@@ -1,0 +1,9 @@
+{
+	"name": "ict-adf-Massimo-test",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8f874b14-f380-452f-859c-2c7bc6d8094a",
+		"tenantId": "7ce78af3-0dbf-4e7f-9e7c-0d85b1fc5372"
+	}
+}

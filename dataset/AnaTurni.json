@@ -1,0 +1,67 @@
+{
+	"name": "AnaTurni",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlMassimo1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CODICE_TURNO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DESCRIZIONE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NUMERO_ORE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "NUMERO_TURNI",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "COLORE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TIPOLOGIA",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ARROTONDAMENTO",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CUSTOM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MCUSTOM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ROWID",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "CRDATE",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ANATURNI"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
