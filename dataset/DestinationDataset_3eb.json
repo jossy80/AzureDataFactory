@@ -1,0 +1,269 @@
+{
+	"name": "DestinationDataset_3eb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azure_ict_sedwedemo032_epmaster_test",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "PT_ID_PARTE",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ID_VERSIONE",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_DESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_CODTIPOPARTE",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_TIPOPARTE",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_TIPOPARTEDESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_FAMIGLIA",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR01",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR02",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR03",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR04",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR05",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR06",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR07",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR08",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR09",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_ATTR10",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_PESO",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_CODUMPESO",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_UMPESO",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_UMPESODESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_VOLUME",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_CODUMVOLUME",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_UMVOLUME",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_UMVOLUMEDESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_DIM01",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_CODUMDIM01",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_UMDIM01",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_UMDIM01DESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_DIM02",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_CODUMDIM02",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UN_ID_UMDIM02",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_UMDIM02DESCR",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_CICLOVITA",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_CRDATE",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "FI_ID_FAMIGLIAISMO",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PM_DESCRLUNGA",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "IM_ID_TAGIMG",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PT_TAGPARTE",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PM_ITEMSALDO",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_SIMULATO",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PT_UDATE",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "EP_PARTI"
+		}
+	}
+}
