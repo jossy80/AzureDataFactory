@@ -1,0 +1,16 @@
+{
+	"name": "Oracle_sedwepora001_ora193_pdb03_fashion_uat_epmaster",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Oracle",
+		"typeProperties": {
+			"connectionString": "host=sedwepora001.cloud.sedapta.com;port=1521;servicename=ORA193_PDB03;user id=FASHION_UAT_EPMASTER",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MTM3YjIzMC04MWQ3LTQyMjgtYjAyNC05NjI5NTFmMWU4MzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime-self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
