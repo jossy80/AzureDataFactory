@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "Oracle",
 		"typeProperties": {
-			"connectionString": "host=10.10.101.100;port=1521;servicename=ORA193_PDB03;user id=FASHION_EPMASTER",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZDE0ODNmMS1iMjI5LTQyYjgtYTQ3MS1hM2E2MzIxZWRiOTkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "host=10.10.101.100;port=1521;servicename=ORA193_PDB03;user id=FASHION_UAT_EPMASTER",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0N2NhZjJkNi0yMDk0LTQ2NTItYWNmMi0yMjZmMjdlMjVjMTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime-self-hosted",
