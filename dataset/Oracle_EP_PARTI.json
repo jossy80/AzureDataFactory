@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"Tabelladinamica": {
+			"TabellaDinamica": {
 				"type": "string"
 			}
 		},
